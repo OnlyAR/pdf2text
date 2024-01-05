@@ -80,16 +80,3 @@ def pdf2text(file, word_line_break=True, sentence_line_break=False):
         article = _process_line_break_sentence(article)
 
     return article
-
-
-def test():
-    filename = "test-cn-doc.doc"
-    with open('data/pdfs/{}'.format(filename), 'rb') as f:
-        pdf = f.read()
-    out_filename = ".".join(filename.split('.')[:-1]) + '.txt'
-    with open('data/txts/{}'.format(out_filename), 'w', encoding='utf-8') as f:
-        f.write(pdf2text(pdf))
-
-
-if __name__ == '__main__':
-    test()
