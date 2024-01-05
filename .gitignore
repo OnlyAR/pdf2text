@@ -1,0 +1,6 @@
+# .gitignore
+*
+!pdf2text.py
+!requirements.txt
+!README.md
+!README-zh.md
