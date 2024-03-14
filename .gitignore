@@ -1,6 +1,16 @@
 # .gitignore
+# Ignore everything
 *
-!pdf2text.py
+
+# docs
 !requirements.txt
 !README.md
 !README-zh.md
+
+# python code
+!pdf2text.py
+!__init__.py
+!setup.py
+
+# license
+!LICENSE

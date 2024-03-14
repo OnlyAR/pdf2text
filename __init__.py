@@ -1,0 +1,1 @@
+from pdf2text import pdf2text
