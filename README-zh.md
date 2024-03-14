@@ -10,12 +10,19 @@
 - （可选）纠正PDF排版导致的句子换行问题。
 
 ### 安装
-1. 克隆此仓库或下载源代码。
+1. 运行以下命令安装工具包和依赖项：
+
+   ```shell
+   pip install git+https://github.com/OnlyAR/pdf2text.git
+   ```
+
+   or use ssh:
+
+   ```shell
+   pip install git+ssh://git@github.com/OnlyAR/pdf2text.git
+   ```
+
 2. 确保安装有java环境并配置了正确的路径，可以执行`java`命令。
-3. 运行下面的命令来安装所需的依赖项：
-   ```
-   pip install -r requirements.txt
-   ```
 
 ### 用法
 要将文件转换为文本，请使用`pdf2text`函数。

@@ -2,22 +2,35 @@
 
 [中文文档](README-zh.md)
 
-This Python utility, `pdf2text.py`, converts PDF documents into plain human-readable text format by processing line breaks in words and sentences. The script is capable of reading other file types too, but it's specially equipped to handle PDFs.
+This Python utility, `pdf2text.py`, converts PDF documents into plain human-readable text format by processing line
+breaks in words and sentences. The script is capable of reading other file types too, but it's specially equipped to
+handle PDFs.
 
 ### Features
+
 - Extracts text content from PDF and other document formats supported by [Apache Tika](https://tika.apache.org/).
-- Corrects word breaks that occur due to hyphenation supported by [wordninja](https://github.com/keredson/wordninja/)(e.g., "low- power" -> "low-power", "im- plement" -> "implement").
+- Corrects word breaks that occur due to hyphenation supported by [wordninja](https://github.com/keredson/wordninja/)(
+  e.g., "low- power" -> "low-power", "im- plement" -> "implement").
 - Optionally corrects sentence breaks that occur due to newline characters.
 
 ### Installation
-1. Clone this repository or download the source code.
-2. Make sure the java environment is installed and the correct path is configured to execute the `java` command.
-3. Install the required dependencies by running:
-   ```
-   pip install -r requirements.txt
+
+1. Install the package and requirements by running:
+
+   ```shell
+   pip install git+https://github.com/OnlyAR/pdf2text.git
    ```
 
+   or use ssh:
+
+   ```shell
+   pip install git+ssh://git@github.com/OnlyAR/pdf2text.git
+   ```
+
+2. Make sure the java environment is installed and the correct path is configured to execute the `java` command.
+
 ### Usage
+
 To convert a file to text, use the `pdf2text` function.
 
 ```python
