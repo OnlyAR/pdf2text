@@ -3,6 +3,16 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+requirements = [
+    "certifi",
+    "charset-normalizer",
+    "idna",
+    "requests",
+    "tika",
+    "urllib3",
+    "wordninja",
+]
+
 setuptools.setup(
     name="pdf2text",
     version="0.0.1",
@@ -13,7 +23,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/OnlyAR/pdf2text",
     include_package_data=False,
-    packages=setuptools.find_packages(),
+    requires=requirements,
+    py_modules=['pdf2text'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
