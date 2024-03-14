@@ -23,7 +23,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/OnlyAR/pdf2text",
     include_package_data=False,
-    requires=requirements,
+    install_requires=requirements,
     py_modules=['pdf2text'],
     classifiers=[
         "Programming Language :: Python :: 3",
