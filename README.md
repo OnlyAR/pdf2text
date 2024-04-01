@@ -18,13 +18,7 @@ handle PDFs.
 1. Install the package and requirements by running:
 
    ```shell
-   pip install git+https://github.com/OnlyAR/pdf2text.git
-   ```
-
-   or use ssh:
-
-   ```shell
-   pip install git+ssh://git@github.com/OnlyAR/pdf2text.git
+   pip install simple-pdf2text
    ```
 
 2. Make sure the java environment is installed and the correct path is configured to execute the `java` command.

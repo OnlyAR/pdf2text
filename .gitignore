@@ -11,6 +11,7 @@
 !pdf2text.py
 !__init__.py
 !setup.py
+!setup.cfg
 
 # license
 !LICENSE

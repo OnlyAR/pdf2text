@@ -1,6 +1,6 @@
 # PDF2Text Converter
 
-[English Document](README-en.md)。
+[English Document](README.md)。
 
 这个Python工具 `pdf2text.py` 能将PDF文档转换为纯文本格式，并处理单词和句子中的换行问题。该脚本也能读取其他类型的文件，但主要是为处理PDF文件而设计的。
 
@@ -13,13 +13,7 @@
 1. 运行以下命令安装工具包和依赖项：
 
    ```shell
-   pip install git+https://github.com/OnlyAR/pdf2text.git
-   ```
-
-   or use ssh:
-
-   ```shell
-   pip install git+ssh://git@github.com/OnlyAR/pdf2text.git
+   pip install simple-pdf2text
    ```
 
 2. 确保安装有java环境并配置了正确的路径，可以执行`java`命令。

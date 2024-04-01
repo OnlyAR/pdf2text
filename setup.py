@@ -14,7 +14,7 @@ requirements = [
 ]
 
 setuptools.setup(
-    name="pdf2text",
+    name="simple-pdf2text",
     version="0.0.1",
     author="Only(AR)",
     author_email="zhangjh.se@outlook.com",
