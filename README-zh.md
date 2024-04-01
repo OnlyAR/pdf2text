@@ -1,6 +1,6 @@
 # PDF2Text Converter
 
-[English Document](README-en.md)。
+[English Document](README.md)。
 
 这个Python工具 `pdf2text.py` 能将PDF文档转换为纯文本格式，并处理单词和句子中的换行问题。该脚本也能读取其他类型的文件，但主要是为处理PDF文件而设计的。
 
